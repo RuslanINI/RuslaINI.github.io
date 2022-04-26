@@ -51,6 +51,17 @@
     border-top: 2px solid #eee;
     background: linear-gradient(360deg,rgba(222, 222, 222, 0.3) 0%,rgba(0, 166, 255, 0.345) 100%);;
 }
+.plan-text {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: auto;
+    height: auto;
+    padding: auto;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    text-align: center
+}
 .dress-code-section {
     height: 60vh;
     border-top: 1px solid rgb(243, 243, 243);
@@ -105,6 +116,7 @@
     font-family: 'Caveat', cursive;
     text-transform: uppercase;
     letter-spacing: 1px;
+    display: block;
 }
 .text-card-line {
     display: inline-block;
@@ -163,6 +175,18 @@
     background: rgba(92, 185, 243, 0.197);
 }
 .question-text {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: auto;
+    height: auto;
+    padding: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center
+}
+.question-text {
+    display: block;
     text-transform: uppercase;
     letter-spacing: 2px;
     width: auto;
@@ -303,6 +327,9 @@
     .bg-main {
         max-width: 100%;
         max-height: 100%;
+    }
+    .plan-text {
+        padding-top: 10%;
     }
     .todo-section {
         max-width: 100%;
