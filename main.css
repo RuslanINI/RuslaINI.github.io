@@ -357,10 +357,10 @@
         margin: auto;
     }
     .todo-button {
-        max-width: 80%;
+        max-width: 100%;
     }
     .question-button {
-        max-width: 50%;
+        max-width: 70%;
     }
     .logo {
         width: 20%;
