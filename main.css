@@ -29,11 +29,11 @@
     justify-content: center;
     border-radius: 2px;
     font-family: 'Caveat', cursive;
-    background-color: #6bc3f335;
+    background-color: #b4dcf235;
 }
 .block-card {
-    margin: 50px;
-    border: 2px solid #eee;
+    margin: 30px;
+    border: 1px solid #eee;
     padding-bottom: none;
     display: block;
     max-height: 1000px;
@@ -42,12 +42,12 @@
     width: auto;
     text-align: center;
     border-radius: 5px;
-    box-shadow: 0 1px 3px 0 rgba(238, 238, 238, 0.355);
-    background-color: rgba(85, 175, 224, 0.302);
+    background-color: rgba(0, 166, 255, 0.223);
+    box-shadow: 0 16px 10px 2px rgba(39, 43, 47, 0.208) ;
 }
 .plan-section {
     font-family: 'Caveat', cursive;
-    height: 50vh;
+    height: 35vh;
     border-top: 2px solid #eee;
     background: linear-gradient(360deg,rgba(222, 222, 222, 0.3) 0%,rgba(0, 166, 255, 0.345) 100%);;
 }
@@ -63,7 +63,7 @@
     text-align: center
 }
 .dress-code-section {
-    height: 60vh;
+    height: 30vh;
     border-top: 1px solid rgb(243, 243, 243);
     background: linear-gradient(360deg,rgba(0, 166, 255, 0.345) 0%,rgba(222, 222, 222, 0.3) 100%);
 }
@@ -128,13 +128,13 @@
 }
 .info-section {
     font-family: 'Caveat', cursive;
-    height: 38vh;
+    height: 30vh;
     border-top: 1px solid #00a6ff06;
     background: rgba(0, 166, 255, 0.345);
 }
 .question-section {
     font-family: 'Caveat', cursive;
-    height: 40vh;
+    height: 30vh;
     border-top: 2px solid #f8f8f82e;
     background: rgba(222, 222, 222, 0.3);
 }
@@ -336,10 +336,10 @@
         max-height: 550px;
     }
     .text-card-line {
-        max-width: 80%;
+        max-width: 100%;
     }
     .text-card {
-        padding: 5px 5px 10px 10px;
+        padding: 5px 5px 10px 5px;
         max-width: 100%;
         margin: auto;
     }
