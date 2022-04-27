@@ -120,11 +120,13 @@
 }
 .text-card-line {
     display: inline-block;
-    padding: 2px 20px 2px;
+    padding: 15px 20px 15px;
     font-family: 'Caveat', cursive;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    border-bottom: 2px solid #2f343781;
+    letter-spacing: 6px;
+    border-bottom: 2px solid #2f343741;
+    border-top: 2px solid #2f343741;
+    box-shadow: 0 5px 3px 0px rgba(77, 82, 87, 0.098);
 }
 .info-section {
     font-family: 'Caveat', cursive;
@@ -336,7 +338,7 @@
         max-height: 550px;
     }
     .text-card-line {
-        max-width: 100%;
+        max-width: 90%;
     }
     .text-card {
         padding: 5px 5px 10px 5px;
@@ -374,6 +376,19 @@
     }
     .active-block {
         max-width: 80%;
+        max-height: 80%;
+    }
+    .info-section {
+        min-height: 250px;
+    }
+    .dress-code-section {
+        min-height: 250px;
+    }
+    .question-section {
+        min-height: 250px;
+    }
+    .plan-section {
+        min-height: 310px;
     }
     .names-sign {
         position: relative;
